@@ -1,14 +1,15 @@
 [features]
 seeds = false
+
 [programs.localnet]
-test_aob_v4 = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+test_aob_v4 = "Dgth76j3CNxmCgkSUVKZCvdgRCConmJkXkT6pgPqLSKs"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "localnet"
-wallet = "/Users/jesse/.config/solana/id.json"
+wallet = "/keys/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
